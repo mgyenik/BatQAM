@@ -1,4 +1,3 @@
-batqam.d
 batqam.elf
 batqam.bin
 batqam.map
@@ -6,3 +5,4 @@ batqam.hex
 *.swp
 *.swo
 *.o
+*.d
