@@ -2,7 +2,7 @@ batqam.d
 batqam.elf
 batqam.bin
 batqam.map
-batqam.o
 batqam.hex
 *.swp
 *.swo
+*.o
