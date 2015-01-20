@@ -30,3 +30,7 @@ MEMORY
 /* Include the common ld script. */
 INCLUDE libopencm3_stm32f4.ld
 
+/* Hax for reserving buffers */
+blocksize = 2048;
+PROVIDE(i_block = ALIGN(_ebss, blocksize));
+PROVIDE(q_block = ALIGN(i_block + blocksize, blocksize));
